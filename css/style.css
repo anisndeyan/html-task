@@ -1,6 +1,113 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
-nav{
-	height:150px;
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Satisfy|Archivo+Black');
+
+.mynav{
+	background-color:#fff;
+	border-color: #fff;
 }
-/*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>*/
+.mynav li a{
+	text-transform: uppercase;
+	font-family: "Lato";
+	color:#000 !important;
+	font-weight: 400;
+	letter-spacing:2px !important;
+	padding: 10px 22px;
+	text-shadow: 1px 1px 1px #999;
+	font-size: 16px;
+}
+@media (max-width: 1200px) and (min-width: 992px){
+	.mynav li a {
+    	padding: 10px 16px;
+    	font-size: 15px;
+	}
+	.logo {
+	    width: 200px !important;
+	    margin-top: -70px !important;
+	}
+
+}
+@media (max-width: 992px) and (min-width: 750px){
+	.mynav li a {
+    	padding: 10px 10px;
+    	font-size: 13px;
+    	letter-spacing:1px !important;
+	}
+	.logo {
+	    width: 160px !important;
+	    margin-top: -40px !important;
+	}
+}
+@media (max-width:750px){
+	.logo{
+		width:160px !important;
+		margin-top:-33px !important;
+	}
+	#main-menu-collapse{
+		margin-top:20px;
+	}
+}
+.demo{
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+.pull-right{
+	background-color:#fff;
+	border-color:#000;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #999;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	padding:5px 15px;
+}
+@media (max-width: 767px) and (min-width: 321px){
+	.mynav li {
+	    text-align: center;
+	    border-bottom: 1px solid #F1F1F1;
+	}
+}
+.logo {
+    width: 225px;
+    margin-top: -84px;
+}
+
+.image{
+	position:relative;
+}
+
+.image-text{
+	position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+.text-top{
+	font-size: 37px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 100px;
+    font-weight:900;
+}
+.text-mid{
+	font-size: 115px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    margin-top: -45px;
+    font-family: "Archivo Black"
+}
+.with{
+    margin-top: -45px;
+}
+.border{
+	border-top: 3px solid #ffffff;
+    width: 363px;
+    display: inline-block;
+    height: 13px;
+}
+.text-with{
+	font-family: 'Satisfy';
+    font-size: 38px;
+    display: inline-block;
+    padding: 0 7px;
+}
