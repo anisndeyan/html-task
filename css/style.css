@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Satisfy|Archivo+Black');
 
+body{
+	overflow-x:hidden;
+}
 .mynav{
 	background-color:#fff;
 	border-color: #fff;
@@ -353,6 +356,15 @@ footer button{
 .foot{
 	position:absolute;
 	z-index:-999;
+	width:100%;
 
 }
 
+.equal-height-container {
+    display: table;
+}
+.equal{
+    display: table-cell;
+    vertical-align: middle;
+    float: initial;
+}
