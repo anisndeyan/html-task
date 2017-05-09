@@ -70,7 +70,8 @@ body{
 		font-size: 20px !important;
 	}
 
-} @media (max-width:767px) and (min-width:750px){
+} 
+@media (max-width:767px) and (min-width:750px){
 	.track{
 		text-align:center !important;
 	}
@@ -360,11 +361,9 @@ footer button{
 
 }
 
-.equal-height-container {
-    display: table;
-}
 .equal{
-    display: table-cell;
-    vertical-align: middle;
-    float: initial;
+    padding-top:5%;
+}
+.img{
+	margin:2% auto;
 }
